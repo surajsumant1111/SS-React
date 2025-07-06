@@ -8,7 +8,12 @@ we will see the uses
 6. App.css include css 
 
 
-
+In second class we learn
+1. file extension writen in src folder is in .jx or .jsx
+2. in new file function name first later must be writen in capital later
+3. At last we have to return the function we create in src folder
+4. we have to import that function in index.jx file and 
+5. if we want to import two file in index.jx we have to wrap in bundle 
 
 
 
