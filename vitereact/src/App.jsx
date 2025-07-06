@@ -4,7 +4,7 @@
 function App() {
   
   return (
-    <h1>By veet Creation</h1>
+    <h1>By vite Creation</h1>
   )
 }
 
