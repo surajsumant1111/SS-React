@@ -1,7 +1,8 @@
 function App() {
-  
+  const variable='Suraj'
   return (
-    <h1>By vite Creation</h1>
+    //inside we print one variable by {}
+    <h1>By vite Creation {variable}</h1>
   )
 }
 
