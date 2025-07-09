@@ -23,7 +23,7 @@ function App() {
     {
       Variables--;
     }
-    console.log(Variables)
+    console.log(Variables);
     SetVariables(Variables)
   }
 
