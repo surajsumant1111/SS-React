@@ -7,6 +7,11 @@ function App() {
   //let Variables=15;
   let [Variables, SetVariables]=useState(15);
   //here we use hooks
+  let [cons,setCons]=useState("Suraj Kumar")
+  let [value,setValue]=useState("")
+  const dream=(e)=>{
+    setValue(e.target.value)
+  }
 
   const increseValue=()=>{
     //At learning time they give in assigment button won't increase after 20 thats why we give if condition
@@ -33,6 +38,14 @@ function App() {
       <h2>Value = {Variables}</h2>
       <button onClick={increseValue}>Increase</button>
       <button onClick={decreaseValue}>Decrease</button>
+      <h2>By {cons}</h2>
+      <button onClick={()=>setCons("Suraj Sumant")}>update</button>
+      {/* <br/><br/>
+      <input type="text" value={value} onChange={dream}/> */}
+
+
+
+      
     </>
   )
 }
